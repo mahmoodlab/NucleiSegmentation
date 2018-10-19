@@ -62,7 +62,7 @@ python test.py --dataroot <datapath> --name NU_SEG --gpu_ids 0 --display_id 0
 ## Reference
 If you find our work useful in your research please consider citing our paper:
 ```
-@inproceedings{bobrow2018deeplsr,
+@inproceedings{mahmood2018adversarial,
   title     = { Adversarial Training for Multi-Organ Nuclei Segmentation in Computational Pathology Images},
   author    = {Faisal Mahmood, Daniel Borders, Richard Chen, Gregory McKay, Kevan J. Salimian, Alexander Baras, and Nicholas J. Durr},
   booktitle = {arXiv:1810.00236},
