@@ -21,9 +21,9 @@ Faisal Mahmood, Daniel Borders, Richard Chen, Gregory N. McKay, Kevan J. Salimia
 All image pairs must be 256x256 and paired together in 512x256 images. '.png' and '.jpg' files are acceptable. Data needs to be arranged in the following order:
 
 ```bash
-SOMEPATH # Some arbitrary path
-└── Datasets # The unzip folder of SUNRGBD.zip
-      └── XYZ_Dataset # The unzip folder of SUNRGBDtoolbox.zip
+SOMEPATH 
+└── Datasets 
+      └── XYZ_Dataset 
             ├── test
             └── train
 ```
@@ -32,20 +32,20 @@ SOMEPATH # Some arbitrary path
 
 To train a model:
 ```
-python train.py --dataroot <datapath> --name DeepLSR  --gpu_ids 0 --display_id 0 
+python train.py --dataroot <datapath> --name NU_SEG  --gpu_ids 0 --display_id 0 
 --lambda_L1 70 --niter 200 --niter_decay 200 --pool_size 64 --loadSize 256 --fineSize 256
 ```
 - To view training losses and results, run `python -m visdom.server` and click the URL http://localhost:8097. For cloud servers replace localhost with your IP. 
-- To epoch-wise intermediate training results, `./checkpoints/DeepLSR/web/index.html`
+- To epoch-wise intermediate training results, `./checkpoints/NU_SEG/web/index.html`
 
 ### Testing
 
 To test the model:
 ```
-python test.py --dataroot <datapath> --name DeepLSR --gpu_ids 0 --display_id 0 
+python test.py --dataroot <datapath> --name NU_SEG --gpu_ids 0 --display_id 0 
 --loadSize 256 --fineSize 256
 ```
-- The test results will be saved to a html file here: `./results/facades_pix2pix/test_latest/index.html`.
+- The test results will be saved to a html file here: `./results/NU_SEG/test_latest/index.html`.
 
 ### Issues
 
@@ -63,7 +63,7 @@ python test.py --dataroot <datapath> --name DeepLSR --gpu_ids 0 --display_id 0
 If you find our work useful in your research please consider citing our paper:
 ```
 @inproceedings{bobrow2018deeplsr,
-  title     = {Deep Adversarial Training for Multi-Organ Nuclei Segmentation in Computational Pathology Images},
+  title     = { Adversarial Training for Multi-Organ Nuclei Segmentation in Computational Pathology Images},
   author    = {Faisal Mahmood, Daniel Borders, Richard Chen, Gregory McKay, Kevan J. Salimian, Alexander Baras, and Nicholas J. Durr},
   booktitle = {arXiv:1810.00236},
   year = {2018}
