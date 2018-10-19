@@ -1,5 +1,9 @@
 # cGAN-based Multi-Organ Nuclei Segmentation
 
+
+<img src="https://github.com/faisalml/NucleiSegmentation/blob/master/imgs/1.gif" width="256"/>    <img src="https://github.com/faisalml/NucleiSegmentation/blob/master/imgs/2.gif" width="256"/>   <img src="https://github.com/faisalml/NucleiSegmentation/blob/master/imgs/3.gif" width="256"/> <img src="https://github.com/faisalml/NucleiSegmentation/blob/master/imgs/4.gif" width="256"/>
+
+
 If you use this code, please cite:
 
 Faisal Mahmood, Daniel Borders, Richard Chen, Gregory N. McKay, Kevan J. Salimian, Alexander Baras, and Nicholas J. Durr. "Deep Adversarial Training for Multi-Organ Nuclei Segmentation in Histopathology Images." arXiv preprint arXiv:1810.00236 (2018). [arXiv Link](https://arxiv.org/abs/1810.00236)
