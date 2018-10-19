@@ -2,8 +2,8 @@
 
 If you use this code, please cite:
 
-Faisal Mahmood, Daniel Borders, Richard Chen, Gregory N. McKay, Kevan J. Salimian, Alexander Baras, and Nicholas J. Durr. "Deep Adversarial Training for Multi-Organ Nuclei Segmentation in Histopathology Images." arXiv preprint arXiv:1810.00236 (2018).
-
+Faisal Mahmood, Daniel Borders, Richard Chen, Gregory N. McKay, Kevan J. Salimian, Alexander Baras, and Nicholas J. Durr. "Deep Adversarial Training for Multi-Organ Nuclei Segmentation in Histopathology Images." arXiv preprint arXiv:1810.00236 (2018). [arXiv Link](https://arxiv.org/abs/1810.00236)
+ 
 ## Setup
 
 ### Prerequisites
