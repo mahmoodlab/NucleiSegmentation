@@ -1,7 +1,7 @@
 # cGAN-based Multi-Organ Nuclei Segmentation
 
 
-<img src="https://github.com/faisalml/NucleiSegmentation/blob/master/imgs/1.gif" width="256"/>    <img src="https://github.com/faisalml/NucleiSegmentation/blob/master/imgs/2.gif" width="256"/>   <img src="https://github.com/faisalml/NucleiSegmentation/blob/master/imgs/3.gif" width="256"/> <img src="https://github.com/faisalml/NucleiSegmentation/blob/master/imgs/4.gif" width="256"/>
+<img src="https://github.com/faisalml/NucleiSegmentation/blob/master/imgs/1.gif" width="256"/>    <img src="https://github.com/faisalml/NucleiSegmentation/blob/master/imgs/2.gif" width="256"/>   <img src="https://github.com/faisalml/NucleiSegmentation/blob/master/imgs/3.gif" width="256"/> <img src="https://github.com/faisalml/NucleiSegmentation/blob/master/imgs/5.gif" width="256"/>
 
 
 If you use this code, please cite:
