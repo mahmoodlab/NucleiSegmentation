@@ -22,7 +22,9 @@ Faisal Mahmood, Daniel Borders, Richard Chen, Gregory N. McKay, Kevan J. Salimia
 
 ### Dataset
 
-All image pairs must be 256x256 and paired together in 512x256 images. '.png' and '.jpg' files are acceptable. Data needs to be arranged in the following order:
+All image pairs must be 256x256 and paired together in 512x256 images. '.png' and '.jpg' files are acceptable. 
+To avoid domain adpatation issues, sparse stain normalization is recommended for all test and train data, we used [this](https://github.com/abhishekvahadane/CodeRelease_ColorNormalization) tool.
+Data needs to be arranged in the following order:
 
 ```bash
 SOMEPATH 
