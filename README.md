@@ -60,7 +60,7 @@ python test.py --dataroot <datapath> --name NU_SEG --gpu_ids 0 --display_id 0
 - Immidiate responce to minor issues may not be available.
 
 ## License
-© [Durr Lab](https://durr.jhu.edu) - This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 - This code is inspired by [pytorch-DCGAN](https://github.com/pytorch/examples/tree/master/dcgan), [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [SNGAN-Projection](https://github.com/pfnet-research/sngan_projection)
