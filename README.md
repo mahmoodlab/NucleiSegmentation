@@ -52,7 +52,7 @@ python test.py --dataroot <datapath> --name NU_SEG --gpu_ids 0 --display_id 0
 --loadSize 256 --fineSize 256
 ```
 - The test results will be saved to a html file here: `./results/NU_SEG/test_latest/index.html`.
-- Pretrained models can be downloaded [here](https://www.dropbox.com/sh/u5bwh43xyimngsp/AACElcIQpnFWBZADalmSK0Vza?dl=0). Place the pretrained model in `./checkpoints/NU_SEG`. This model was trained after sparse stain normalization, all test images should be normalized for best results, see the Dataset section for more information. 
+- Pretrained models can be downloaded [here](https://www.dropbox.com/sh/r8kej7ys9dwq2hw/AAC9H6F-0OhMSKi_Y1DX_Zv1a?dl=0). Place the pretrained model in `./checkpoints/NU_SEG`. This model was trained after sparse stain normalization, all test images should be normalized for best results, see the Dataset section for more information. 
 
 ### Issues
 
