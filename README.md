@@ -6,7 +6,7 @@
 
 If you use this code, please cite:
 
-Faisal Mahmood, Daniel Borders, Richard Chen, Gregory N. McKay, Kevan J. Salimian, Alexander Baras, and Nicholas J. Durr. "Deep Adversarial Training for Multi-Organ Nuclei Segmentation in Histopathology Images." arXiv preprint arXiv:1810.00236 (2018). [arXiv Link](https://arxiv.org/abs/1810.00236)
+Faisal Mahmood, Daniel Borders, Richard Chen, Gregory N. McKay, Kevan J. Salimian, Alexander Baras, and Nicholas J. Durr. "Deep Adversarial Training for Multi-Organ Nuclei Segmentation in Histopathology Images." arXiv preprint arXiv:1810.00236 (2018). [arXiv Link](https://arxiv.org/abs/1810.00236) Accepted to IEEE Transactions on Medical Imaging (In Press).
  
 ## Setup
 
@@ -56,7 +56,7 @@ python test.py --dataroot <datapath> --name NU_SEG --gpu_ids 0 --display_id 0
 
 ### Issues
 
-- Please open new threads or report issues to faisalm@jhu.edu
+- Please open new threads or report issues to FaisalMahmood@bwh.harvard.edu 
 - Immidiate responce to minor issues may not be available.
 
 ## License
@@ -72,7 +72,7 @@ If you find our work useful in your research please consider citing our paper:
 @inproceedings{mahmood2018adversarial,
   title     = {Adversarial Training for Multi-Organ Nuclei Segmentation in Computational Pathology Images},
   author    = {Faisal Mahmood, Daniel Borders, Richard Chen, Gregory McKay, Kevan J. Salimian, Alexander Baras, and Nicholas J. Durr},
-  booktitle = {arXiv:1810.00236},
+  booktitle = {IEEE Transactions on Medical Imaging},
   year = {2018}
 }
 ```
