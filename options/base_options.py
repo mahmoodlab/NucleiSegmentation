@@ -49,10 +49,9 @@ class BaseOptions():
 
     def gather_options(self):
         # initialize parser with basic options
-        if not self.initialized:
-            parser = argparse.ArgumentParser(
-                formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-            parser = self.initialize(parser)
+        parser = argparse.ArgumentParser(
+            formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+        parser = self.initialize(parser)
 
         # get the basic options
         opt, _ = parser.parse_known_args()
@@ -94,7 +93,10 @@ class BaseOptions():
 
     def parse(self):
 
-        opt = self.gather_options()
+        if self.initialized:
+            return self.opt
+        else:
+            opt = self.gather_options()
         opt.isTrain = self.isTrain   # train or test
 
         # process opt.suffix
