@@ -47,20 +47,20 @@ class BaseOptions():
         self.initialized = True
         return parser
 
-    def gather_options(self):
+    def gather_options(self, parser_args = None):
         # initialize parser with basic options
         parser = argparse.ArgumentParser(
             formatter_class=argparse.ArgumentDefaultsHelpFormatter)
         parser = self.initialize(parser)
 
         # get the basic options
-        opt, _ = parser.parse_known_args()
+        opt, _ = parser.parse_known_args(args=parser_args)
 
         # modify model-related parser options
         model_name = opt.model
         model_option_setter = models.get_option_setter(model_name)
         parser = model_option_setter(parser, self.isTrain)
-        opt, _ = parser.parse_known_args()  # parse again with the new defaults
+        opt, _ = parser.parse_known_args(args=parser_args)  # parse again with the new defaults
 
         # modify dataset-related parser options
         dataset_name = opt.dataset_mode
@@ -69,7 +69,7 @@ class BaseOptions():
 
         self.parser = parser
 
-        return parser.parse_args()
+        return parser.parse_args(args=parser_args)
 
     def print_options(self, opt):
         message = ''
@@ -91,12 +91,12 @@ class BaseOptions():
             opt_file.write(message)
             opt_file.write('\n')
 
-    def parse(self):
+    def parse(self, parser_args = None):
 
         if self.initialized:
             return self.opt
         else:
-            opt = self.gather_options()
+            opt = self.gather_options(parser_args=parser_args)
         opt.isTrain = self.isTrain   # train or test
 
         # process opt.suffix
